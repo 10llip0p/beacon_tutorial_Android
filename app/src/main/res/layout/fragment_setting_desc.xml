@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jp.smartlinks.beacon_tutorial.SettingDescFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="監視対象のUUID,Major,Minorを変更できます。" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UUID" />
+
+        <TextView
+            android:id="@+id/txtUUID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="XXXXXXXXXXXXXXXXXXXXXXXX" />
+
+        <Button
+            android:id="@+id/btnChangeUUID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="変更"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Major" />
+
+        <TextView
+            android:id="@+id/txtMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="未指定" />
+
+        <Button
+            android:id="@+id/btnChangeMajor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="変更"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minor" />
+
+        <TextView
+            android:id="@+id/txtMinor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="未指定" />
+
+
+        <Button
+            android:id="@+id/btnChangeMinor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="変更"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="[初期値に戻す]をタップすると、上記設定を初期値（デフォルト値）に戻せます。" />
+
+        <Button
+            android:id="@+id/btnDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="初期値に戻す"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>

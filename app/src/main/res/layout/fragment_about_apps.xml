@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jp.smartlinks.beacon_tutorial.AboutAppsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="このアプリについて" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="「Beacon入門」アプリは、iBeacon対応アプリの基礎となる「領域観測」「距離の測定」という2つの機能の動作を手軽に体験できるよう開発したアプリです。" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="このアプリの利用者として想定しているのは、次のような方々です。" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="・iBeaconを活用した事業を検討している方" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="・iBeacon対応アプリを開発しようと考えている開発者の方" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="・iBeaconに興味のある方" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="このアプリを使用すると、iBeacon に端末が近づいた時、どのようなタイミングで検知できるのか、また、検知できなくなるのか。iBeacon の識別や距離測定の精度などを体験を通じて理解できるようになります。" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="このアプリは、書籍「iBeacon＆Eddystone］統計・防災・位置情報がひと目でわかるビーコンアプリの作り方（技術評論社）」の付録的な位置づけでもあります。書籍の中では、iBeacon の基礎知識から、活用するためのヒント、さらには、iOS/Android での実装方法などを説明しています。本アプリのソースコードも一部抜粋して掲載しております。" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Beacon入門 Version1.0" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

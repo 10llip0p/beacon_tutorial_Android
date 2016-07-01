@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jp.smartlinks.beacon_tutorial.CheckLogDescFragment"
+    android:background="#e6e6e6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="「ビーコン受信+地図」でビーコン検出時にログを保存しています。"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ログを一覧で確認できます。"/>
+
+        <ImageButton
+            android:id="@+id/btnCheckLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_margin="10dp"
+            android:src="@drawable/btn_checklog"
+            android:background="#e6e6e6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ログをメールで送信できます。"/>
+
+        <ImageButton
+            android:id="@+id/btnSendMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="onClick"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:src="@drawable/btn_sendmail"
+            android:background="#e6e6e6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ログをクリア（初期化）します。"/>
+
+
+        <ImageButton
+            android:id="@+id/btnClearLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:src="@drawable/btn_clearlog"
+            android:background="#e6e6e6"/>
+
+    </LinearLayout>
+
+</FrameLayout>

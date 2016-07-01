@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jp.smartlinks.beacon_tutorial.Receive3DescFragment"
+    android:background="#e6e6e6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_margin="10dp"
+            android:text="ビーコン領域内のビーコンを受信すると、GPSから取得した緯度経度で地図に表示します。"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="観測対象のビーコン領域"/>
+        <TextView
+            android:id="@+id/txtUUID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginLeft="20dp"
+            android:text="UUID="/>
+        <TextView
+            android:id="@+id/txtMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginLeft="20dp"
+            android:text="Major="/>
+        <TextView
+            android:id="@+id/txtMinor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginLeft="20dp"
+            android:text="Minor="/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_margin="10dp"
+            android:text="観測対象のビーコン領域は、「設定」画面で変更できます。"/>
+
+        <ImageButton
+            android:id="@+id/btnExecute3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_execute"
+            android:layout_margin="5dp"
+            android:background="#e6e6e6"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
